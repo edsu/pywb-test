@@ -1,4 +1,4 @@
 collections:
-  was: 
-    index_paths: ./collections/was/indexes/
-    archive_paths: ./collections/was/archive/
+  $root: 
+    index_paths: ./collections/test/indexes/
+    archive_paths: ./collections/test/archive/
