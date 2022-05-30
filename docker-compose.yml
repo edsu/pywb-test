@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+
+  pywb:
+    build: .
+    working_dir: /pywb
+    volumes:
+      - .:/pywb
+    ports:
+      - 8080:8080
